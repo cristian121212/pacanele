@@ -60,18 +60,19 @@ html{
   height: 30vh;
 }
 
-@media only screen and (max-width:900px) and (max-height:1300px) {
+
+@media (max-aspect-ratio: 1/1) {
   .jocuri {
-    display:none;
+    display: none;
   }
 }
 
-@media only screen and (max-width:700px) {
+
+@media (max-height:600px) {
   .jocuri {
-    display:none;
+    display: none;
   }
 }
-
 
 
 
